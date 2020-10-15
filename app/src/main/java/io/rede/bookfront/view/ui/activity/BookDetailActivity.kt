@@ -1,7 +1,10 @@
 package io.rede.bookfront.view.ui.activity
 
+import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +19,7 @@ import kotlinx.android.synthetic.main.activity_book_detail.*
 import kotlinx.android.synthetic.main.activity_main.toolbar_actionbar
 import kotlinx.android.synthetic.main.toolbar_default.*
 
-
+//Detail activity of a selected Book
 class BookDetailActivity : AppCompatActivity() {
 
     var mBook: Book? = null
@@ -34,7 +37,7 @@ class BookDetailActivity : AppCompatActivity() {
 
         //Load Book object from other activity or savedInstanceState
         if (savedInstanceState != null) {
-            mBook = savedInstanceState.getParcelable(Key.LIST_NAME_ENCODED)
+            mBook = savedInstanceState.getParcelable(Key.BOOK)
         } else {
             mBook = intent.getParcelableExtra(Key.BOOK)
         }
@@ -66,6 +69,7 @@ class BookDetailActivity : AppCompatActivity() {
         }
 
     }
+
     //Save Book object
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
@@ -81,5 +85,13 @@ class BookDetailActivity : AppCompatActivity() {
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    companion object {
+        fun createIntent(context: Context, book: Book?): Intent {
+            val intent = Intent(context, BookDetailActivity::class.java)
+            intent.putExtra(Key.BOOK, book)
+            return intent
+        }
     }
 }

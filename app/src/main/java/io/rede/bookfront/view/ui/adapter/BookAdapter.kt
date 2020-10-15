@@ -1,6 +1,5 @@
 package io.rede.bookfront.view.ui.adapter
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -38,9 +37,11 @@ class BookAdapter(private val books: List<Book>) :
         }
 
         override fun onClick(view: View) {
-            val detailIntent = Intent(itemView.context, BookDetailActivity::class.java)
-            detailIntent.putExtra("book", books[adapterPosition])
-            itemView.context.startActivity(detailIntent)
+            val intent = BookDetailActivity.createIntent(
+                itemView.context,
+                books[adapterPosition]
+            )
+            itemView.context.startActivity(intent)
         }
 
         init {
