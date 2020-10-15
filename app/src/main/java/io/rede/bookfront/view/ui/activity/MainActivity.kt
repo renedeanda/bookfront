@@ -1,12 +1,9 @@
 package io.rede.bookfront.view.ui.activity
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import io.rede.bookfront.R
 import io.rede.bookfront.model.BookList
@@ -31,12 +28,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         loadBookLists()
-        swipe_refresh_layout.setColorSchemeColors(
-            ContextCompat.getColor(
-                this@MainActivity,
-                R.color.teal_200
-            )
-        )
         swipe_refresh_layout.setOnRefreshListener { loadBookLists() }
     }
 
@@ -44,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         swipe_refresh_layout.isRefreshing = true
         val call: Call<BookListsResponse> = mService.getTopBookLists()
         call.enqueue(object : Callback<BookListsResponse> {
-            @SuppressLint("SetTextI18n")
             override fun onResponse(
                 call: Call<BookListsResponse>,
                 response: Response<BookListsResponse>
@@ -52,20 +42,28 @@ class MainActivity : AppCompatActivity() {
                 swipe_refresh_layout.isRefreshing = false
                 if (response.body() != null && response.body()!!.results != null) {
 
-                    toolbar_title.text = "${response.body()!!.numResults.toString()} NYT Book Lists"
+                    toolbar_title.text = getString(R.string.nyt_book_lists)
                     mBookLists = response.body()!!.results!!
                     mBookListAdapter = BookListAdapter(mBookLists)
                     booklist_recyclerview.layoutManager = LinearLayoutManager(this@MainActivity)
                     booklist_recyclerview.adapter = mBookListAdapter
                     booklist_recyclerview.visibility = View.VISIBLE
                 } else {
-                    Toast.makeText(this@MainActivity, "No response body", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@MainActivity,
+                        getString(R.string.no_response_body),
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
 
             override fun onFailure(call: Call<BookListsResponse>, t: Throwable) {
                 swipe_refresh_layout.isRefreshing = false
-                Toast.makeText(this@MainActivity, "Oops. Please try again.", Toast.LENGTH_SHORT)
+                Toast.makeText(
+                    this@MainActivity,
+                    getString(R.string.oops_try_again),
+                    Toast.LENGTH_SHORT
+                )
                     .show()
             }
         })

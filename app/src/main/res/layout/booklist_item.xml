@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/colorPrimary"
-    android:layout_marginBottom="5dp">
+    android:layout_marginBottom="5dp"
+    android:background="?android:attr/selectableItemBackground">
 
     <TextView
         android:id="@+id/display_name_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="?attr/colorOnPrimary"
         android:padding="12dp"
-        tools:text="Science Fiction"/>
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp"
+        tools:text="Science Fiction" />
 
 </RelativeLayout>

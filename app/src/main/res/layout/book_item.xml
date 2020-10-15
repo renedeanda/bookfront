@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="5dp"
-    android:background="?attr/colorPrimary">
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="12dp">
 
-    <TextView
-        android:id="@+id/title_textview"
+    <ImageView
+        android:id="@+id/book_cover_imageview"
+        android:layout_width="80dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/book_cover" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:textColor="?attr/colorOnPrimary"
-        android:textSize="24sp"
-        tools:text="The Tide" />
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            tools:text="The Tide" />
+
+        <TextView
+            android:id="@+id/author_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            tools:text="Tony" />
+
+        <TextView
+            android:id="@+id/rank_weeks_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            tools:text="3 weeks" />
+
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            tools:text="This is a great book description..." />
+    </LinearLayout>
+
+
+</LinearLayout>

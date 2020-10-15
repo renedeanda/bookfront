@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">BookFront</string>
+    <string name="book_cover">book_cover</string>
+    <string name="buy_on_amazon">Buy on Amazon</string>
+    <string name="book_details">Book Details</string>
+    <string name="rank_weeks_on_list">#%1$s • %2$s weeks on list</string>
+    <string name="publisher_x">Publisher : %1$s</string>
+    <string name="isbn10_x">ISBN-10 : %1$s</string>
+    <string name="isbn13_x">ISBN-13 : %1$s</string>
+    <string name="no_response_body">No response body</string>
+    <string name="oops_try_again">Oops. Please try again.</string>
+    <string name="nyt_book_lists">NYT Book Lists</string>
 </resources>

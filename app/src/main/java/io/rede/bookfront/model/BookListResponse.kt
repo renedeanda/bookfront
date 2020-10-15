@@ -22,8 +22,6 @@ class ResultsResponse {
 data class Book(
     @SerializedName("rank")
     val rank: Int?,
-    @SerializedName("rank_last_week")
-    val rankLastWeek: Int?,
     @SerializedName("weeks_on_list")
     val weeksOnList: Int?,
     @SerializedName("primary_isbn10")
@@ -40,10 +38,6 @@ data class Book(
     val author: String?,
     @SerializedName("book_image")
     val bookImage: String?,
-    @SerializedName("book_image_width")
-    val bookImageWidth: String?,
-    @SerializedName("book_image_height")
-    val bookImageHeight: String?,
     @SerializedName("amazon_product_url")
     val amazonProductUrl: String?
 ) : Parcelable

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,22 +11,104 @@
         layout="@layout/toolbar_default" />
 
     <LinearLayout
+        android:id="@+id/book_main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="?attr/actionBarSize">
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:orientation="horizontal"
+        android:padding="12dp">
 
-        <TextView
-            android:id="@+id/title_textview"
+        <ImageView
+            android:id="@+id/book_cover_imageview"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/book_cover" />
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:textColor="?attr/colorOnPrimary"
-            android:textSize="24sp"
-            tools:text="The Tide" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="18sp"
+                tools:text="The Tide" />
+
+            <TextView
+                android:id="@+id/author_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="18sp"
+                tools:text="Tony" />
+
+            <TextView
+                android:id="@+id/rank_weeks_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                tools:text="3 weeks" />
+
+            <Button
+                android:id="@+id/amazon_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_on_amazon"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange" />
+        </LinearLayout>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_main_layout"
+        android:orientation="vertical"
+        android:padding="8dp">
 
+        <TextView
+            android:id="@+id/publisher_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            tools:text="Publisher : X" />
+
+        <TextView
+            android:id="@+id/isbn10_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            tools:text="ISBN-10 : X" />
+
+        <TextView
+            android:id="@+id/isbn13_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="16sp"
+            tools:text="ISBN-13 : X" />
+
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="20sp"
+            tools:text="This is a great book description..." />
+
+    </LinearLayout>
 
 </RelativeLayout>

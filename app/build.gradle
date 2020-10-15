@@ -50,6 +50,7 @@ dependencies {
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation "androidx.browser:browser:1.2.0"
 
     //3rd party libraries
     //Coil for image loading
