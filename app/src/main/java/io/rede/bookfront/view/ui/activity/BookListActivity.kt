@@ -36,17 +36,20 @@ class BookListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_book_list)
 
+        //Set custom toolbar title & enable home back button
         val toolbar = (toolbar_actionbar as Toolbar)
         setSupportActionBar(toolbar)
         supportActionBar!!.title = ""
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
+        //Load list name encoded string from other activity or savedInstanceState
         if (savedInstanceState != null) {
             mListNameEncoded = savedInstanceState.getString(Key.LIST_NAME_ENCODED)
         } else {
             mListNameEncoded = intent.getStringExtra(Key.LIST_NAME_ENCODED)
         }
 
+        //Perform initial network call if list name encoded string exists
         if (mListNameEncoded != null) {
             loadBooks(mListNameEncoded)
         } else {
@@ -57,11 +60,13 @@ class BookListActivity : AppCompatActivity() {
         swipe_refresh_layout.setOnRefreshListener { loadBooks(mListNameEncoded) }
     }
 
+    //Save list name encoded string to ensure swipe refreshes keep working
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString(Key.LIST_NAME_ENCODED, mListNameEncoded)
     }
 
+    //Network call to load books with UI updates
     private fun loadBooks(listNameEncoded: String?) {
         swipe_refresh_layout.isRefreshing = true
         val call: Call<BookListResponse> = mService.getTopBooks(listNameEncoded)
@@ -101,6 +106,7 @@ class BookListActivity : AppCompatActivity() {
         })
     }
 
+    //Allow home back presses
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> {

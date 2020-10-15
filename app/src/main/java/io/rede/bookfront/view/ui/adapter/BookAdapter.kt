@@ -13,6 +13,7 @@ import io.rede.bookfront.view.ui.activity.BookDetailActivity
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.book_item.*
 
+//Adapter for loading Book items in recyclerview
 class BookAdapter(private val books: List<Book>) :
     RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
 

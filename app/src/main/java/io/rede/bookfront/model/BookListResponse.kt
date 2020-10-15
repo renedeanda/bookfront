@@ -4,13 +4,13 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 
+//Initial response serialized to ResultsResponse object
 class BookListResponse {
     @SerializedName("results")
     val results: ResultsResponse? = null
-    @SerializedName("num_results")
-    val numResults: Int? = null
 }
 
+//Response broken down into the data to be accessed for our adapter list of Books
 class ResultsResponse {
     @SerializedName("display_name")
     val displayName: String? = null
@@ -18,6 +18,7 @@ class ResultsResponse {
     val books: List<Book>? = null
 }
 
+//Model for Book object, uses Parcelize annotation to make it possible to pass a Book object between activities
 @Parcelize
 data class Book(
     @SerializedName("rank")

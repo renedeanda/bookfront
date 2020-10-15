@@ -18,6 +18,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.create
 
+//First screen in application displaying the list of NYT booklists
 class MainActivity : AppCompatActivity() {
 
     var mBookLists: List<BookList> = ArrayList()
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         swipe_refresh_layout.setOnRefreshListener { loadBookLists() }
     }
 
+    //Network call to load book lists with UI updates
     private fun loadBookLists() {
         swipe_refresh_layout.isRefreshing = true
         val call: Call<BookListsResponse> = mService.getTopBookLists()
@@ -41,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             ) {
                 swipe_refresh_layout.isRefreshing = false
                 if (response.body() != null && response.body()!!.results != null) {
-
                     toolbar_title.text = getString(R.string.nyt_book_lists)
                     mBookLists = response.body()!!.results!!
                     mBookListAdapter = BookListAdapter(mBookLists)

@@ -25,12 +25,14 @@ class BookDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_book_detail)
 
+        //Set custom toolbar title & enable home back button
         val toolbar = (toolbar_actionbar as Toolbar)
         setSupportActionBar(toolbar)
         supportActionBar!!.title = ""
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         toolbar_title.text = getString(R.string.book_details)
 
+        //Load Book object from other activity or savedInstanceState
         if (savedInstanceState != null) {
             mBook = savedInstanceState.getParcelable(Key.LIST_NAME_ENCODED)
         } else {
@@ -64,12 +66,13 @@ class BookDetailActivity : AppCompatActivity() {
         }
 
     }
-
+    //Save Book object
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putParcelable(Key.BOOK, mBook)
     }
 
+    //Allow home back presses
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> {
