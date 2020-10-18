@@ -10,4 +10,5 @@
     <string name="no_response_body">No response body</string>
     <string name="oops_try_again">Oops. Please try again.</string>
     <string name="nyt_book_lists">NYT Book Lists</string>
+    <string name="error_loading_data">Error loading data</string>
 </resources>

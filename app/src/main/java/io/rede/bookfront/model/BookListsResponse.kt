@@ -9,9 +9,9 @@ class BookListsResponse {
 }
 
 //Model of Booklist item to load into our adapter list of booklists
-class BookList {
+class BookList(
     @SerializedName("list_name_encoded")
-    val listNameEncoded:String? = null
+    val listNameEncoded: String?,
     @SerializedName("display_name")
-    val displayName: String? = null
-}
+    val displayName: String?
+)

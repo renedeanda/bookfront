@@ -28,12 +28,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        toolbar_title.text = getString(R.string.nyt_book_lists)
         loadBookLists()
         swipe_refresh_layout.setOnRefreshListener { loadBookLists() }
     }
 
     //Network call to load book lists with UI updates
     private fun loadBookLists() {
+        error_view.visibility = View.GONE
         swipe_refresh_layout.isRefreshing = true
         val call: Call<BookListsResponse> = mService.getTopBookLists()
         call.enqueue(object : Callback<BookListsResponse> {
@@ -42,19 +44,18 @@ class MainActivity : AppCompatActivity() {
                 response: Response<BookListsResponse>
             ) {
                 swipe_refresh_layout.isRefreshing = false
-                if (response.body() != null && response.body()!!.results != null) {
-                    toolbar_title.text = getString(R.string.nyt_book_lists)
+                if (response.body()?.results != null) {
                     mBookLists = response.body()!!.results!!
                     mBookListAdapter = BookListAdapter(mBookLists)
                     booklist_recyclerview.layoutManager = LinearLayoutManager(this@MainActivity)
                     booklist_recyclerview.adapter = mBookListAdapter
-                    booklist_recyclerview.visibility = View.VISIBLE
                 } else {
                     Toast.makeText(
                         this@MainActivity,
                         getString(R.string.no_response_body),
                         Toast.LENGTH_SHORT
                     ).show()
+                    error_view.visibility = View.VISIBLE
                 }
             }
 
@@ -64,8 +65,8 @@ class MainActivity : AppCompatActivity() {
                     this@MainActivity,
                     getString(R.string.oops_try_again),
                     Toast.LENGTH_SHORT
-                )
-                    .show()
+                ).show()
+                error_view.visibility = View.VISIBLE
             }
         })
     }

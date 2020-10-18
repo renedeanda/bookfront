@@ -1,0 +1,681 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2020 The New York Times Company.  All Rights Reserved.",
+  "num_results": 10,
+  "last_modified": "2019-08-29T21:23:18-04:00",
+  "results": {
+    "list_name": "Culture",
+    "list_name_encoded": "culture",
+    "bestsellers_date": "2016-12-31",
+    "published_date": "2017-01-15",
+    "published_date_description": "latest",
+    "next_published_date": "",
+    "previous_published_date": "2016-12-01",
+    "display_name": "Culture",
+    "normal_list_ends_at": 10,
+    "updated": "MONTHLY",
+    "books": [
+      {
+        "rank": 1,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1455539740",
+        "primary_isbn13": "9781455539741",
+        "publisher": "Grand Central/Melcher Media",
+        "description": "The libretto of the Grammy-, Tony- and Pulitzer Prize-winning musical, annotated by its creator, along with backstage photos,interviews and a production history.",
+        "price": 0,
+        "title": "HAMILTON: THE REVOLUTION",
+        "author": "Lin-Manuel Miranda and Jeremy McCarter",
+        "contributor": "by Lin-Manuel Miranda and Jeremy McCarter",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9781455567539.jpg",
+        "book_image_width": 330,
+        "book_image_height": 398,
+        "amazon_product_url": "http://www.amazon.com/Hamilton-The-Revolution-Lin-Manuel-Miranda-ebook/dp/B015X056G4?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1455539740",
+            "isbn13": "9781455539741"
+          },
+          {
+            "isbn10": "1455567531",
+            "isbn13": "9781455567539"
+          },
+          {
+            "isbn10": "1478913649",
+            "isbn13": "9781478913641"
+          },
+          {
+            "isbn10": "1495069885",
+            "isbn13": "9781495069888"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/Hamilton-The-Revolution-Lin-Manuel-Miranda-ebook/dp/B015X056G4?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=HAMILTON%3A+THE+REVOLUTION&author=Lin-Manuel+Miranda+and+Jeremy+McCarter"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455539741"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHAMILTON%253A%2BTHE%2BREVOLUTION%2FLin-Manuel%2BMiranda%2Band%2BJeremy%2BMcCarter%2F9781455539741"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781455539741"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781455539741?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/56194ce1-3f36-5e94-82df-af4b0e208936"
+      },
+      {
+        "rank": 2,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "0399588175",
+        "primary_isbn13": "9780399588174",
+        "publisher": "Spiegel & Grau",
+        "description": "A memoir about growing up in South Africa by the comedian, now the host of “The Daily Show,” whose parents were in an illegal (under apartheid) interracial relationship.",
+        "price": 0,
+        "title": "BORN A CRIME",
+        "author": "Trevor Noah",
+        "contributor": "by Trevor Noah",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9780399588181.jpg",
+        "book_image_width": 326,
+        "book_image_height": 495,
+        "amazon_product_url": "https://www.amazon.com/Born-Crime-Stories-African-Childhood-ebook/dp/B01DHWACVY?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "0399588175",
+            "isbn13": "9780399588174"
+          },
+          {
+            "isbn10": "0399588183",
+            "isbn13": "9780399588181"
+          },
+          {
+            "isbn10": "1531865038",
+            "isbn13": "9781531865030"
+          },
+          {
+            "isbn10": "1531865046",
+            "isbn13": "9781531865047"
+          },
+          {
+            "isbn10": "0399588191",
+            "isbn13": "9780399588198"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "https://www.amazon.com/Born-Crime-Stories-African-Childhood-ebook/dp/B01DHWACVY?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=BORN+A+CRIME&author=Trevor+Noah"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780399588174"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FBORN%2BA%2BCRIME%2FTrevor%2BNoah%2F9780399588174"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9780399588174"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9780399588174?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/f6f9b274-6e97-51e2-b784-bd71d0dd21f6"
+      },
+      {
+        "rank": 3,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1455565385",
+        "primary_isbn13": "9781455565382",
+        "publisher": "Grand Central",
+        "description": "An oral history of the show, based on extensive interviews with Jon Stewart and others.",
+        "price": 0,
+        "title": "THE DAILY SHOW (THE BOOK)",
+        "author": "Chris Smith",
+        "contributor": "by Chris Smith",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9781455565382.jpg",
+        "book_image_width": 327,
+        "book_image_height": 495,
+        "amazon_product_url": "https://www.amazon.com/Daily-Show-Book-History-Correspondents/dp/1455565385?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "https://www.nytimes.com/2016/12/01/books/review/daily-show-oral-history-chris-smith.html",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1455565385",
+            "isbn13": "9781455565382"
+          },
+          {
+            "isbn10": "1455565350",
+            "isbn13": "9781455565351"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "https://www.amazon.com/Daily-Show-Book-History-Correspondents/dp/1455565385?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=THE+DAILY+SHOW+%28THE+BOOK%29&author=Chris+Smith"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455565382"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BDAILY%2BSHOW%2B%2528THE%2BBOOK%2529%2FChris%2BSmith%2F9781455565382"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781455565382"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781455565382?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/36699959-1f8e-54a1-a8fb-c3ec4fc583cc"
+      },
+      {
+        "rank": 4,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "0062571370",
+        "primary_isbn13": "9780062571373",
+        "publisher": "HarperDesign",
+        "description": "Filmmaking secrets, photography and artwork from “Fantastic Beasts and Where to Find Them,” written by J. K. Rowling.",
+        "price": 0,
+        "title": "THE CASE OF BEASTS",
+        "author": "Mark Salisbury",
+        "contributor": "by Mark Salisbury",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9780062571373.jpg",
+        "book_image_width": 330,
+        "book_image_height": 389,
+        "amazon_product_url": "https://www.amazon.com/Case-Beasts-Explore-Wizardry-Fantastic/dp/0062571370?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "0062571370",
+            "isbn13": "9780062571373"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "https://www.amazon.com/Case-Beasts-Explore-Wizardry-Fantastic/dp/0062571370?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=THE+CASE+OF+BEASTS&author=Mark+Salisbury"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062571373"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FTHE%2BCASE%2BOF%2BBEASTS%2FMark%2BSalisbury%2F9780062571373"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9780062571373"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9780062571373?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/c086fc7a-e541-50cb-b2c6-c2a697cbbca0"
+      },
+      {
+        "rank": 5,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1250058902",
+        "primary_isbn13": "9781250058904",
+        "publisher": "St. Martin's",
+        "description": "Photographs and interviews from the creator of the blog and the book “Humans of New York.”",
+        "price": 0,
+        "title": "HUMANS OF NEW YORK: STORIES",
+        "author": "Brandon Stanton",
+        "contributor": "by Brandon Stanton",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9781250058904.jpg",
+        "book_image_width": 330,
+        "book_image_height": 422,
+        "amazon_product_url": "http://www.amazon.com/Humans-New-York-Brandon-Stanton/dp/1250058902?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1250058902",
+            "isbn13": "9781250058904"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/Humans-New-York-Brandon-Stanton/dp/1250058902?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=HUMANS+OF+NEW+YORK%3A+STORIES&author=Brandon+Stanton"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250058904"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHUMANS%2BOF%2BNEW%2BYORK%253A%2BSTORIES%2FBrandon%2BStanton%2F9781250058904"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781250058904"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781250058904?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/bb67f8cc-7a34-55ad-a03b-f10f64e9d900"
+      },
+      {
+        "rank": 6,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "0062316095",
+        "primary_isbn13": "9780062316097",
+        "publisher": "Harper",
+        "description": "How Homo sapiens became Earth’s dominant species.",
+        "price": 0,
+        "title": "SAPIENS",
+        "author": "Yuval Noah Harari",
+        "contributor": "by Yuval Noah Harari",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9780062316097.jpg",
+        "book_image_width": 128,
+        "book_image_height": 192,
+        "amazon_product_url": "http://www.amazon.com/Sapiens-A-Brief-History-Humankind-ebook/dp/B00ICN066A?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "0062316095",
+            "isbn13": "9780062316097"
+          },
+          {
+            "isbn10": "0062316109",
+            "isbn13": "9780062316103"
+          },
+          {
+            "isbn10": "0062796232",
+            "isbn13": "9780062796233"
+          },
+          {
+            "isbn10": "1494576902",
+            "isbn13": "9781494576905"
+          },
+          {
+            "isbn10": "0062316117",
+            "isbn13": "9780062316110"
+          },
+          {
+            "isbn10": "1494506904",
+            "isbn13": "9781494506902"
+          },
+          {
+            "isbn10": "1494556901",
+            "isbn13": "9781494556907"
+          },
+          {
+            "isbn10": "1473523788",
+            "isbn13": "9781473523784"
+          },
+          {
+            "isbn10": "1538456583",
+            "isbn13": "9781538456583"
+          },
+          {
+            "isbn10": "1538456605",
+            "isbn13": "9781538456606"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/Sapiens-A-Brief-History-Humankind-ebook/dp/B00ICN066A?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=SAPIENS&author=Yuval+Noah+Harari"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062316097"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FSAPIENS%2FYuval%2BNoah%2BHarari%2F9780062316097"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9780062316097"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9780062316097?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/6321e78d-5215-5c51-bcea-79cfffbc3db9"
+      },
+      {
+        "rank": 7,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1250038820",
+        "primary_isbn13": "9781250038821",
+        "publisher": "St. Martin's",
+        "description": "Four hundred color photos of New Yorkers, with brief commentary by the author.",
+        "price": 0,
+        "title": "HUMANS OF NEW YORK",
+        "author": "Brandon Stanton",
+        "contributor": "by Brandon Stanton",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9781250038821.jpg",
+        "book_image_width": 330,
+        "book_image_height": 424,
+        "amazon_product_url": "http://www.amazon.com/Humans-New-York-Brandon-Stanton/dp/1250038820?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1250038820",
+            "isbn13": "9781250038821"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/Humans-New-York-Brandon-Stanton/dp/1250038820?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=HUMANS+OF+NEW+YORK&author=Brandon+Stanton"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250038821"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FHUMANS%2BOF%2BNEW%2BYORK%2FBrandon%2BStanton%2F9781250038821"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781250038821"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781250038821?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/f8e8af43-e546-5167-9aa9-f3088b4ca819"
+      },
+      {
+        "rank": 8,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1590514882",
+        "primary_isbn13": "9781590514887",
+        "publisher": "Other Press",
+        "description": "An account of the birth of one of the 20th century's major intellectual movements and the revolutionary thinkers who shaped it: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, and others.",
+        "price": 0,
+        "title": "AT THE EXISTENTIALIST CAFE",
+        "author": "Sarah Bakewell",
+        "contributor": "by Sarah Bakewell",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9781590514887.jpg",
+        "book_image_width": 330,
+        "book_image_height": 494,
+        "amazon_product_url": "http://www.amazon.com/Existentialist-Café-Cocktails-Jean-Paul-Merleau-Ponty/dp/1590514882?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "https://www.nytimes.com/2016/04/17/books/review/at-the-existentialist-cafe-by-sarah-bakewell.html",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1590514882",
+            "isbn13": "9781590514887"
+          },
+          {
+            "isbn10": "1590514890",
+            "isbn13": "9781590514894"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/Existentialist-Café-Cocktails-Jean-Paul-Merleau-Ponty/dp/1590514882?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=AT+THE+EXISTENTIALIST+CAFE&author=Sarah+Bakewell"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781590514887"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FAT%2BTHE%2BEXISTENTIALIST%2BCAFE%2FSarah%2BBakewell%2F9781590514887"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781590514887"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781590514887?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/776899a7-8a9a-593c-94c4-bad549078d27"
+      },
+      {
+        "rank": 9,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "1631492225",
+        "primary_isbn13": "9781631492228",
+        "publisher": "Liveright",
+        "description": "A concise history of ancient Rome.",
+        "price": 0,
+        "title": "SPQR",
+        "author": "Mary Beard",
+        "contributor": "by Mary Beard",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9780871404237.jpg",
+        "book_image_width": 326,
+        "book_image_height": 495,
+        "amazon_product_url": "http://www.amazon.com/SPQR-A-History-Ancient-Rome/dp/0871404230?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "1631491253",
+            "isbn13": "9781631491252"
+          },
+          {
+            "isbn10": "0871404230",
+            "isbn13": "9780871404237"
+          },
+          {
+            "isbn10": "1631492225",
+            "isbn13": "9781631492228"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "http://www.amazon.com/SPQR-A-History-Ancient-Rome/dp/0871404230?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=SPQR&author=Mary+Beard"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781631492228"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FSPQR%2FMary%2BBeard%2F9781631492228"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9781631492228"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9781631492228?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/a09b777e-a043-5924-bc32-61b24ee1ad75"
+      },
+      {
+        "rank": 10,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "primary_isbn10": "0544703391",
+        "primary_isbn13": "9780544703391",
+        "publisher": "Houghton Mifflin Harcourt",
+        "description": "The creator of The New York Times dialect quiz provides a guide to how words are pronounced in different parts of the country. \n",
+        "price": 0,
+        "title": "SPEAKING AMERICAN",
+        "author": "Josh Katz",
+        "contributor": "by Josh Katz",
+        "contributor_note": "",
+        "book_image": "https://s1.nyt.com/du/books/images/9780544703391.jpg",
+        "book_image_width": 330,
+        "book_image_height": 314,
+        "amazon_product_url": "https://www.amazon.com/Speaking-American-Youse-Visual-Guide/dp/0544703391?tag=NYTBS-20",
+        "age_group": "",
+        "book_review_link": "",
+        "first_chapter_link": "",
+        "sunday_review_link": "",
+        "article_chapter_link": "",
+        "isbns": [
+          {
+            "isbn10": "0544703391",
+            "isbn13": "9780544703391"
+          }
+        ],
+        "buy_links": [
+          {
+            "name": "Amazon",
+            "url": "https://www.amazon.com/Speaking-American-Youse-Visual-Guide/dp/0544703391?tag=NYTBS-20"
+          },
+          {
+            "name": "Apple Books",
+            "url": "https://du-gae-books-dot-nyt-du-prd.appspot.com/buy?title=SPEAKING+AMERICAN&author=Josh+Katz"
+          },
+          {
+            "name": "Barnes and Noble",
+            "url": "https://www.anrdoezrs.net/click-7990613-11819508?url=https%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780544703391"
+          },
+          {
+            "name": "Books-A-Million",
+            "url": "https://www.anrdoezrs.net/click-7990613-35140?url=https%3A%2F%2Fwww.booksamillion.com%2Fp%2FSPEAKING%2BAMERICAN%2FJosh%2BKatz%2F9780544703391"
+          },
+          {
+            "name": "Bookshop",
+            "url": "https://bookshop.org/a/3546/9780544703391"
+          },
+          {
+            "name": "Indiebound",
+            "url": "https://www.indiebound.org/book/9780544703391?aff=NYT"
+          }
+        ],
+        "book_uri": "nyt://book/2c2bb347-4714-577a-ad13-acd36876178e"
+      }
+    ],
+    "corrections": []
+  }
+}

@@ -11,7 +11,7 @@ import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.booklist_item.*
 
 //Adapter for loading Booklist items in recyclerview
-class BookListAdapter(private val mBookLists: List<BookList>) :
+class BookListAdapter(private val mBookLists: List<BookList?>) :
     RecyclerView.Adapter<BookListAdapter.BookListViewHolder>() {
 
     inner class BookListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
@@ -20,14 +20,14 @@ class BookListAdapter(private val mBookLists: List<BookList>) :
             get() = itemView
 
         fun bind() {
-            val displayName = mBookLists[adapterPosition].displayName
+            val displayName = mBookLists[adapterPosition]?.displayName
             display_name_textview.text = displayName
         }
 
         override fun onClick(view: View) {
             val intent = BookListActivity.createIntent(
                 itemView.context,
-                mBookLists[adapterPosition].listNameEncoded
+                mBookLists[adapterPosition]?.listNameEncoded
             )
             itemView.context.startActivity(intent)
         }

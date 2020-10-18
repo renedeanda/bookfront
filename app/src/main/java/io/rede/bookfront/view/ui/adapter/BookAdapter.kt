@@ -13,7 +13,7 @@ import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.book_item.*
 
 //Adapter for loading Book items in recyclerview
-class BookAdapter(private val books: List<Book>) :
+class BookAdapter(private val books: List<Book?>) :
     RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
 
     inner class BookViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
@@ -22,18 +22,18 @@ class BookAdapter(private val books: List<Book>) :
             get() = itemView
 
         fun bind() {
-            book_cover_imageview.load(books[adapterPosition].bookImage) {
+            book_cover_imageview.load(books[adapterPosition]?.bookImage) {
                 crossfade(true)
                 transformations(RoundedCornersTransformation(5F))
             }
-            title_textview.text = books[adapterPosition].title
-            author_textview.text = books[adapterPosition].author
+            title_textview.text = books[adapterPosition]?.title
+            author_textview.text = books[adapterPosition]?.author
             rank_weeks_textview.text = itemView.context.getString(
                 R.string.rank_weeks_on_list,
-                books[adapterPosition].rank.toString(),
-                books[adapterPosition].weeksOnList.toString()
+                books[adapterPosition]?.rank.toString(),
+                books[adapterPosition]?.weeksOnList.toString()
             )
-            description_textview.text = books[adapterPosition].description
+            description_textview.text = books[adapterPosition]?.description
         }
 
         override fun onClick(view: View) {

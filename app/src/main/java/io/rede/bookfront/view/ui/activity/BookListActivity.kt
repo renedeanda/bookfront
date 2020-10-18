@@ -76,8 +76,7 @@ class BookListActivity : AppCompatActivity() {
                 response: Response<BookListResponse>
             ) {
                 swipe_refresh_layout.isRefreshing = false
-                if (response.body() != null && response.body()!!.results != null) {
-
+                if (response.body()?.results != null) {
                     toolbar_title.text = response.body()!!.results!!.displayName
                     mBooks = response.body()!!.results!!.books!!
                     mBookAdapter = BookAdapter(mBooks)
